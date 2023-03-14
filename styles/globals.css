@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&family=Source+Sans+Pro:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  --color-blue: #0074D9;
+  --color-white: #FFFFFF;
+
+  --color-grey-50: hsl(219, 20%, 90%);
+  --color-grey-100: hsl(219, 20%, 80%);
+  --color-grey-200: hsl(219, 20%, 60%);
+  --color-grey-300: hsl(219, 20%, 50%);
+  --color-grey-400: hsl(219, 20%, 40%);
+  --color-grey-500: hsl(219, 20%, 30%);
+  --color-grey-600: hsl(219, 20%, 20%);
+  --color-grey-700: hsl(219, 20%, 10%);
+  --color-grey-800: hsl(219, 20%, 5%);
+  --color-grey-900: hsl(219, 20%, 0%);
+
+
+  --color-primary-50: var(--color-blue);
+  --color-primary-100: var(--color-blue);
+  --color-primary-200: var(--color-blue);
+  --color-primary-300: var(--color-blue);
+  --color-primary-400: var(--color-blue);
+  --color-primary-500: var(--color-blue);
+  --color-primary-600: var(--color-blue);
+  --color-primary-700: var(--color-blue);
+
+  --color-success-100: #a2f0bc;
+  --color-success-500: #12bd4b;
+
+  --color-error-100: #f1acc9;
+  --color-error-500: #a10c4a;
+
+  --size-1: 0.25rem;
+  --size-2: 0.5rem;
+  --size-3: 0.75rem;
+  --size-4: 1rem;
+  --size-5: 1.25rem;
+  --size-6: 1.5rem;
+  --size-8: 2rem;
+  --size-16: 4rem;
+  --size-20: 5rem;
+  --size-40: 10rem;
+
+  margin: 0;
+  background-color: var(--color-white);
+  color: var(--color-blue);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Oswald', 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
